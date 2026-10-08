@@ -11,7 +11,7 @@ play. Click **Disable** and the game is exactly as it was.
 [![Extra Cover](https://img.shields.io/github/v/release/officialasit/extracover-releases?filter=v*&label=Extra%20Cover&color=4A8BF5)](../../releases/latest)
 [![Extra Cover beta](https://img.shields.io/github/v/release/officialasit/extracover-releases?filter=v*&include_prereleases&label=beta&color=6BA4FF)](../../releases)
 [![Pack Studio beta](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2Fofficialasit%2Fextracover-releases%2Freleases%2Fdownload%2Fpackstudio-beta%2Fupdate.json&query=%24.version&label=Pack%20Studio%20beta&color=6BA4FF)](../../releases/tag/packstudio-beta)
-[![Downloads](https://img.shields.io/github/downloads/officialasit/extracover-releases/total?label=downloads&color=2EA44F)](../../releases)
+[![Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fofficialasit%2Fextracover-releases%2Fbadges%2Fdownloads.json)](#download-counts)
 [![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6)](#what-you-need)
 [![Cricket 26 on Steam](https://img.shields.io/badge/Cricket%2026-Steam-1B2838)](#what-you-need)
 
@@ -118,7 +118,11 @@ software**: it changes files already installed on your PC and keeps a backup of
 every one it touches. Product names and trademarks are used only to say what this
 software works with, and remain the property of their respective owners.
 
-<sub>Downloads:
-[![Latest Extra Cover](https://img.shields.io/github/downloads/officialasit/extracover-releases/latest/total?label=latest%20Extra%20Cover)](../../releases/latest)
-[![Pack Studio beta](https://img.shields.io/github/downloads/officialasit/extracover-releases/packstudio-beta/total?label=Pack%20Studio%20beta)](../../releases/tag/packstudio-beta)
-[![All time](https://img.shields.io/github/downloads/officialasit/extracover-releases/total?label=all%20time)](../../releases)</sub>
+### Download counts
+
+[![Total downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fofficialasit%2Fextracover-releases%2Fbadges%2Fdownloads.json)](../../releases)
+[![Extra Cover downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fofficialasit%2Fextracover-releases%2Fbadges%2Fextra-cover.json)](../../releases/latest)
+[![Pack Studio downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fofficialasit%2Fextracover-releases%2Fbadges%2Fpack-studio.json)](../../releases/tag/packstudio-beta)
+
+<sub>Counts the Extra Cover installer and the Pack Studio ZIP across every release, updated every
+six hours. The apps' own update checks are not counted.</sub>
