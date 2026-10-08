@@ -6,7 +6,9 @@
 # total therefore mostly counts launches. This counts only the Extra Cover
 # installer and the Pack Studio ZIP (the same rule as tools/stats.js in the
 # source repo: keep the two in step) and writes shields.io endpoint files to
-# the `badges` branch, which the README's badges read.
+# the `badges` branch, which the README's badges read. It also writes an
+# all-files badge and assets.json (every file on every release with its count,
+# feeds and update checks included), so nothing GitHub tracks is left out.
 #
 # `badges` is an orphan branch, force-pushed with one commit each run, so it
 # never grows a history and never touches main.
@@ -36,14 +38,17 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           gh api --paginate "repos/$REPO/releases?per_page=100" \
-            --jq '.[] | select(.draft | not) | .assets[] | [.name, .download_count] | @tsv' > counts.tsv
+            --jq '.[] | select(.draft | not) | .tag_name as $t | .assets[] | [$t, .name, .download_count] | @tsv' > counts.tsv
           mkdir out
           node - <<'JS'
           const fs = require('fs');
-          const t = { extraCover: 0, packStudio: 0 };
+          const t = { extraCover: 0, packStudio: 0, allFiles: 0 };
+          const files = [];
           for (const line of fs.readFileSync('counts.tsv', 'utf8').split('\n')) {
-            const [name, n] = line.split('\t');
+            const [release, name, n] = line.split('\t');
             if (!name) continue;
+            files.push({ release, file: name, downloads: Number(n) || 0 });
+            t.allFiles += Number(n) || 0;
             if (/^extra-cover-Setup-.*\.exe$/i.test(name)) t.extraCover += Number(n) || 0;
             else if (/^packstudio-win-x64\.zip$/i.test(name)) t.packStudio += Number(n) || 0;
           }
@@ -55,6 +60,10 @@ jobs:
           badge('downloads.json', 'downloads', t.extraCover + t.packStudio, '2EA44F');
           badge('extra-cover.json', 'Extra Cover downloads', t.extraCover, '4A8BF5');
           badge('pack-studio.json', 'Pack Studio downloads', t.packStudio, '6BA4FF');
+          badge('all-files.json', 'all file downloads', t.allFiles, '555555');
+          // Every file on every release, update-check files included.
+          fs.writeFileSync('out/assets.json',
+            JSON.stringify({ updated: new Date().toISOString(), totals: t, files }, null, 2) + '\n');
           console.log(t);
           JS
 

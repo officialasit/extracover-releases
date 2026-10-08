@@ -123,6 +123,9 @@ software works with, and remain the property of their respective owners.
 [![Total downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fofficialasit%2Fextracover-releases%2Fbadges%2Fdownloads.json)](../../releases)
 [![Extra Cover downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fofficialasit%2Fextracover-releases%2Fbadges%2Fextra-cover.json)](../../releases/latest)
 [![Pack Studio downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fofficialasit%2Fextracover-releases%2Fbadges%2Fpack-studio.json)](../../releases/tag/packstudio-beta)
+[![All file downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fofficialasit%2Fextracover-releases%2Fbadges%2Fall-files.json)](../../blob/badges/assets.json)
 
-<sub>Counts the Extra Cover installer and the Pack Studio ZIP across every release, updated every
-six hours. The apps' own update checks are not counted.</sub>
+<sub>The first three count the Extra Cover installer and the Pack Studio ZIP across every
+release. *All file downloads* counts every file on every release, including the small
+files the apps read when checking for updates; per-file numbers are in
+[assets.json](../../blob/badges/assets.json). Updated every six hours.</sub>
