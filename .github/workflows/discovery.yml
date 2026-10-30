@@ -1,0 +1,51 @@
+# The "Trending now" list for Extra Cover's Community tab.
+#
+# Every 6 hours: snapshot every Cricket 26 mod's public GameBanana download
+# count, keep ten days of snapshots, rank mods by downloads gained in the last
+# seven days (recent gains weigh more), and publish discovery.json plus the
+# snapshot history to the `discovery` branch. Extra Cover reads
+# discovery/discovery.json; if it is missing or more than three days old, the
+# app ranks trending from GameBanana's own listing instead.
+#
+# `discovery` is an orphan branch, force-pushed with one commit each run (like
+# `badges`), so it never grows a history and never touches main.
+name: Discovery
+
+on:
+  schedule:
+    - cron: '41 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discovery
+  cancel-in-progress: false
+
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/scripts
+          sparse-checkout-cone-mode: false
+
+      - name: Rank trending mods
+        env:
+          GB_GAME_ID: '25674'
+          GB_CATEGORY_ID: '49896'
+          HISTORY_URL: https://raw.githubusercontent.com/${{ github.repository }}/discovery/history.json
+        run: node .github/scripts/discovery-job.js out
+
+      - name: Publish to the discovery branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        working-directory: out
+        run: |
+          git init -q -b discovery
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" commit -q -m "Discovery"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" discovery
