@@ -1,0 +1,190 @@
+{
+  "updated": "2026-10-31T12:37:43.816Z",
+  "totals": {
+    "extraCover": 1906,
+    "packStudio": 249,
+    "allFiles": 11376
+  },
+  "files": [
+    {
+      "release": "v0.3.1",
+      "file": "extra-cover-engine-source-0.3.1.zip",
+      "downloads": 17
+    },
+    {
+      "release": "v0.3.1",
+      "file": "extra-cover-Setup-0.3.1.exe",
+      "downloads": 1237
+    },
+    {
+      "release": "v0.3.1",
+      "file": "extra-cover-Setup-0.3.1.exe.blockmap",
+      "downloads": 218
+    },
+    {
+      "release": "v0.3.1",
+      "file": "latest.yml",
+      "downloads": 5949
+    },
+    {
+      "release": "v0.3.0",
+      "file": "extra-cover-engine-source-0.3.0.zip",
+      "downloads": 0
+    },
+    {
+      "release": "v0.3.0",
+      "file": "extra-cover-Setup-0.3.0.exe",
+      "downloads": 228
+    },
+    {
+      "release": "v0.3.0",
+      "file": "extra-cover-Setup-0.3.0.exe.blockmap",
+      "downloads": 156
+    },
+    {
+      "release": "v0.3.0",
+      "file": "latest.yml",
+      "downloads": 641
+    },
+    {
+      "release": "packstudio-v0.2.0",
+      "file": "packstudio-engine-source.zip",
+      "downloads": 2
+    },
+    {
+      "release": "packstudio-v0.2.0",
+      "file": "packstudio-win-x64.zip",
+      "downloads": 187
+    },
+    {
+      "release": "packstudio-v0.2.0",
+      "file": "packstudio-win-x64.zip.sha256",
+      "downloads": 0
+    },
+    {
+      "release": "packstudio-v0.2.0",
+      "file": "update.json",
+      "downloads": 3
+    },
+    {
+      "release": "v0.2.5",
+      "file": "extra-cover-engine-source-0.2.5.zip",
+      "downloads": 3
+    },
+    {
+      "release": "v0.2.5",
+      "file": "extra-cover-Setup-0.2.5.exe",
+      "downloads": 296
+    },
+    {
+      "release": "v0.2.5",
+      "file": "extra-cover-Setup-0.2.5.exe.blockmap",
+      "downloads": 129
+    },
+    {
+      "release": "v0.2.5",
+      "file": "latest.yml",
+      "downloads": 482
+    },
+    {
+      "release": "v0.2.4",
+      "file": "extra-cover-engine-source-0.2.4.zip",
+      "downloads": 2
+    },
+    {
+      "release": "v0.2.4",
+      "file": "extra-cover-Setup-0.2.4.exe",
+      "downloads": 59
+    },
+    {
+      "release": "v0.2.4",
+      "file": "extra-cover-Setup-0.2.4.exe.blockmap",
+      "downloads": 21
+    },
+    {
+      "release": "v0.2.4",
+      "file": "latest.yml",
+      "downloads": 137
+    },
+    {
+      "release": "v0.2.3",
+      "file": "extra-cover-engine-source-0.2.3.zip",
+      "downloads": 11
+    },
+    {
+      "release": "v0.2.3",
+      "file": "extra-cover-Setup-0.2.3.exe",
+      "downloads": 24
+    },
+    {
+      "release": "v0.2.3",
+      "file": "extra-cover-Setup-0.2.3.exe.blockmap",
+      "downloads": 15
+    },
+    {
+      "release": "v0.2.3",
+      "file": "latest.yml",
+      "downloads": 72
+    },
+    {
+      "release": "v0.2.2",
+      "file": "extra-cover-engine-source-0.2.2.zip",
+      "downloads": 11
+    },
+    {
+      "release": "v0.2.2",
+      "file": "extra-cover-Setup-0.2.2.exe",
+      "downloads": 62
+    },
+    {
+      "release": "v0.2.2",
+      "file": "extra-cover-Setup-0.2.2.exe.blockmap",
+      "downloads": 43
+    },
+    {
+      "release": "v0.2.2",
+      "file": "latest.yml",
+      "downloads": 124
+    },
+    {
+      "release": "packstudio",
+      "file": "packstudio-engine-source.zip",
+      "downloads": 0
+    },
+    {
+      "release": "packstudio",
+      "file": "packstudio-win-x64.zip",
+      "downloads": 25
+    },
+    {
+      "release": "packstudio",
+      "file": "packstudio-win-x64.zip.sha256",
+      "downloads": 0
+    },
+    {
+      "release": "packstudio",
+      "file": "update.json",
+      "downloads": 713
+    },
+    {
+      "release": "packstudio-beta",
+      "file": "packstudio-engine-source.zip",
+      "downloads": 2
+    },
+    {
+      "release": "packstudio-beta",
+      "file": "packstudio-win-x64.zip",
+      "downloads": 37
+    },
+    {
+      "release": "packstudio-beta",
+      "file": "packstudio-win-x64.zip.sha256",
+      "downloads": 1
+    },
+    {
+      "release": "packstudio-beta",
+      "file": "update.json",
+      "downloads": 469
+    }
+  ]
+}
