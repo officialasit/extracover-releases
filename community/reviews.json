@@ -16,5 +16,14 @@
       "status": "verified",
       "reviewedAt": "2026-10-23"
     }
+  ],
+  "reuploads": [
+    {
+      "modId": 735921,
+      "originalModId": 729701,
+      "reviewedAt": "2026-11-04",
+      "originalCreator": "Asit24",
+      "note": "Built from ExtraCam Pulse 1.1.0: most of its camera settings are the same, with some cameras renamed, retuned or added."
+    }
   ]
 }
