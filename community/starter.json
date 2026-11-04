@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "mods": [
+    { "gamebanana": 729701, "kind": "Camera", "line": "Broadcast cameras with aerial tracking" },
+    { "gamebanana": 736326, "kind": "Replay wipe", "line": "TV-style transition into every replay" },
+    { "gamebanana": 732969, "kind": "Stadium", "line": "Richer, more natural grass" }
+  ]
+}
