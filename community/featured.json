@@ -21,16 +21,10 @@
       "mod": 729701
     },
     {
-      "id": "top",
-      "type": "top",
-      "count": 3,
-      "image": "top-wide.jpg"
-    },
-    {
       "id": "extrawipe",
-      "tag": "ExtraWipe",
-      "title": "Replays that cut in like TV",
-      "text": "Dark panels close on a blue seam, then open over the replay. Works in every competition and with any scoreboard mod.",
+      "tag": "New · Replay wipe",
+      "title": "ExtraWipe: TV-style transitions into every replay",
+      "text": "Every replay now opens and closes with a smooth broadcast wipe, like on TV. Works in every competition and with any scoreboard mod.",
       "image": "extrawipe-wide.webp",
       "buttons": [
         {
@@ -46,9 +40,9 @@
     },
     {
       "id": "extracard",
-      "tag": "ExtraCard",
-      "title": "Player cards with a broadcast look",
-      "text": "Walk-in, milestone and bowler cards in solid dark panels with each team’s colour. Your scoreboard stays as it is.",
+      "tag": "New · Player cards",
+      "title": "ExtraCard: TV-style player cards",
+      "text": "Restyles the cards shown when a batter walks in or out, reaches a milestone, or a bowler comes on, plus the coin toss and pitch report. Your scoreboard stays as it is.",
       "image": "extracard-wide-v2.webp",
       "buttons": [
         {
@@ -74,6 +68,12 @@
           "action": "discord"
         }
       ]
+    },
+    {
+      "id": "top",
+      "type": "top",
+      "count": 3,
+      "image": "top-wide.jpg"
     }
   ]
 }
