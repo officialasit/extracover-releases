@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "intervalSeconds": 8,
+  "slides": [
+    { "id": "launch-broadcast", "tag": "New in Extra Cover", "title": "Make your matches look like TV",
+      "text": "New cameras, a replay wipe and player cards. One click to install each, one click to turn it off.",
+      "image": "opener-wide.webp",
+      "buttons": [ { "label": "Get ExtraCam", "action": "community" }, { "label": "Get ExtraWipe", "action": "community" }, { "label": "Get ExtraCard", "action": "community" } ] },
+    { "id": "extracam", "tag": "ExtraCam", "title": "New camera angles for every ball",
+      "text": "Pulse tracks lofted shots from the air; Cinema stays low and long-lens. Pick one in Settings › Camera.",
+      "image": "extracam-wide.webp",
+      "buttons": [ { "label": "Get Pulse", "action": "community" }, { "label": "Get Cinema", "action": "community" } ] },
+    { "id": "extrawipe", "tag": "ExtraWipe", "title": "Replays that cut in like TV",
+      "text": "Dark panels close on a blue seam, then open over the replay. Works in every competition and with any scoreboard mod.",
+      "image": "extrawipe-wide.webp",
+      "buttons": [ { "label": "Get ExtraWipe", "action": "community" } ] },
+    { "id": "extracard", "tag": "ExtraCard", "title": "Player cards with a broadcast look",
+      "text": "Walk-in, milestone and bowler cards in dark glass, in each team's colours. Your scoreboard stays as it is.",
+      "image": "extracard-wide.webp",
+      "buttons": [ { "label": "Get ExtraCard", "action": "community" } ] },
+    { "id": "discord", "tag": "Community", "title": "Try new mods before they're public",
+      "text": "Members get early-access mods, can ask for new ones, and get help if something breaks.",
+      "image": "discord-wide.webp",
+      "buttons": [ { "label": "Join the Discord", "action": "discord" } ] }
+  ]
+}
