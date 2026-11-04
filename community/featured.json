@@ -3,32 +3,10 @@
   "intervalSeconds": 8,
   "slides": [
     {
-      "id": "launch-broadcast",
-      "tag": "New in Extra Cover",
-      "title": "Make your matches look like TV",
-      "text": "New cameras, a replay wipe and player cards. One click to install each, one click to turn it off.",
-      "image": "opener-wide.webp",
-      "buttons": [
-        {
-          "label": "Get ExtraCam",
-          "action": "install",
-          "mod": 729701
-        },
-        {
-          "label": "Get ExtraWipe",
-          "action": "community"
-        },
-        {
-          "label": "Get ExtraCard",
-          "action": "community"
-        }
-      ]
-    },
-    {
       "id": "extracam",
-      "tag": "ExtraCam",
+      "tag": "ExtraCam Pulse",
       "title": "New camera angles for every ball",
-      "text": "Pulse tracks lofted shots from the air; Cinema stays low and long-lens. Pick one in Settings › Camera.",
+      "text": "Follows lofted shots from the air and cuts to the batter before the ball. Turn it on in Settings › Camera.",
       "image": "pulse-wide.jpg",
       "buttons": [
         {
@@ -36,15 +14,17 @@
           "action": "install"
         },
         {
-          "label": "Get Cinema",
-          "action": "community"
-        },
-        {
           "label": "Details",
           "action": "details"
         }
       ],
       "mod": 729701
+    },
+    {
+      "id": "top",
+      "type": "top",
+      "count": 3,
+      "image": "top-wide.jpg"
     },
     {
       "id": "extrawipe",
