@@ -22,7 +22,7 @@
     },
     {
       "id": "extrawipe",
-      "tag": "New · Replay wipe",
+      "tag": "New",
       "title": "ExtraWipe: TV-style transitions into every replay",
       "text": "Every replay now opens and closes with a smooth broadcast wipe, like on TV. Works in every competition and with any scoreboard mod.",
       "image": "extrawipe-wide.webp",
@@ -40,7 +40,7 @@
     },
     {
       "id": "extracard",
-      "tag": "New · Player cards",
+      "tag": "New",
       "title": "ExtraCard: TV-style player cards",
       "text": "Restyles the cards shown when a batter walks in or out, reaches a milestone, or a bowler comes on, plus the coin toss and pitch report. Your scoreboard stays as it is.",
       "image": "extracard-wide-v2.webp",
