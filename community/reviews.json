@@ -25,5 +25,13 @@
       "originalCreator": "Asit24",
       "note": "Built from ExtraCam Pulse 1.1.0: most of its camera settings are the same, with some cameras renamed, retuned or added."
     }
+  ],
+  "delisted": [
+    {
+      "modId": 735921,
+      "reviewedAt": "2026-11-04",
+      "reason": "copy",
+      "note": "Built from ExtraCam Pulse 1.1.0 by Asit24."
+    }
   ]
 }
