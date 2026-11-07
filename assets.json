@@ -1,0 +1,250 @@
+{
+  "updated": "2026-11-07T13:07:40.931Z",
+  "totals": {
+    "extraCover": 4243,
+    "packStudio": 443,
+    "allFiles": 23594
+  },
+  "files": [
+    {
+      "release": "v0.4.1",
+      "file": "extra-cover-engine-source-0.4.1.zip",
+      "downloads": 9
+    },
+    {
+      "release": "v0.4.1",
+      "file": "extra-cover-Setup-0.4.1.exe",
+      "downloads": 751
+    },
+    {
+      "release": "v0.4.1",
+      "file": "extra-cover-Setup-0.4.1.exe.blockmap",
+      "downloads": 480
+    },
+    {
+      "release": "v0.4.1",
+      "file": "latest.yml",
+      "downloads": 2192
+    },
+    {
+      "release": "packstudio-v0.3.0",
+      "file": "packstudio-engine-source.zip",
+      "downloads": 2
+    },
+    {
+      "release": "packstudio-v0.3.0",
+      "file": "packstudio-win-x64.zip",
+      "downloads": 41
+    },
+    {
+      "release": "packstudio-v0.3.0",
+      "file": "packstudio-win-x64.zip.sha256",
+      "downloads": 0
+    },
+    {
+      "release": "packstudio-v0.3.0",
+      "file": "update.json",
+      "downloads": 0
+    },
+    {
+      "release": "v0.4.0",
+      "file": "extra-cover-engine-source-0.4.0.zip",
+      "downloads": 7
+    },
+    {
+      "release": "v0.4.0",
+      "file": "extra-cover-Setup-0.4.0.exe",
+      "downloads": 696
+    },
+    {
+      "release": "v0.4.0",
+      "file": "extra-cover-Setup-0.4.0.exe.blockmap",
+      "downloads": 462
+    },
+    {
+      "release": "v0.4.0",
+      "file": "latest.yml",
+      "downloads": 1512
+    },
+    {
+      "release": "v0.3.1",
+      "file": "extra-cover-engine-source-0.3.1.zip",
+      "downloads": 39
+    },
+    {
+      "release": "v0.3.1",
+      "file": "extra-cover-Setup-0.3.1.exe",
+      "downloads": 2102
+    },
+    {
+      "release": "v0.3.1",
+      "file": "extra-cover-Setup-0.3.1.exe.blockmap",
+      "downloads": 735
+    },
+    {
+      "release": "v0.3.1",
+      "file": "latest.yml",
+      "downloads": 10735
+    },
+    {
+      "release": "v0.3.0",
+      "file": "extra-cover-engine-source-0.3.0.zip",
+      "downloads": 2
+    },
+    {
+      "release": "v0.3.0",
+      "file": "extra-cover-Setup-0.3.0.exe",
+      "downloads": 232
+    },
+    {
+      "release": "v0.3.0",
+      "file": "extra-cover-Setup-0.3.0.exe.blockmap",
+      "downloads": 162
+    },
+    {
+      "release": "v0.3.0",
+      "file": "latest.yml",
+      "downloads": 643
+    },
+    {
+      "release": "packstudio-v0.2.0",
+      "file": "packstudio-engine-source.zip",
+      "downloads": 3
+    },
+    {
+      "release": "packstudio-v0.2.0",
+      "file": "packstudio-win-x64.zip",
+      "downloads": 326
+    },
+    {
+      "release": "packstudio-v0.2.0",
+      "file": "packstudio-win-x64.zip.sha256",
+      "downloads": 1
+    },
+    {
+      "release": "packstudio-v0.2.0",
+      "file": "update.json",
+      "downloads": 5
+    },
+    {
+      "release": "v0.2.5",
+      "file": "extra-cover-engine-source-0.2.5.zip",
+      "downloads": 4
+    },
+    {
+      "release": "v0.2.5",
+      "file": "extra-cover-Setup-0.2.5.exe",
+      "downloads": 297
+    },
+    {
+      "release": "v0.2.5",
+      "file": "extra-cover-Setup-0.2.5.exe.blockmap",
+      "downloads": 137
+    },
+    {
+      "release": "v0.2.5",
+      "file": "latest.yml",
+      "downloads": 483
+    },
+    {
+      "release": "v0.2.4",
+      "file": "extra-cover-engine-source-0.2.4.zip",
+      "downloads": 3
+    },
+    {
+      "release": "v0.2.4",
+      "file": "extra-cover-Setup-0.2.4.exe",
+      "downloads": 60
+    },
+    {
+      "release": "v0.2.4",
+      "file": "extra-cover-Setup-0.2.4.exe.blockmap",
+      "downloads": 24
+    },
+    {
+      "release": "v0.2.4",
+      "file": "latest.yml",
+      "downloads": 138
+    },
+    {
+      "release": "v0.2.3",
+      "file": "extra-cover-engine-source-0.2.3.zip",
+      "downloads": 13
+    },
+    {
+      "release": "v0.2.3",
+      "file": "extra-cover-Setup-0.2.3.exe",
+      "downloads": 26
+    },
+    {
+      "release": "v0.2.3",
+      "file": "extra-cover-Setup-0.2.3.exe.blockmap",
+      "downloads": 16
+    },
+    {
+      "release": "v0.2.3",
+      "file": "latest.yml",
+      "downloads": 73
+    },
+    {
+      "release": "v0.2.2",
+      "file": "extra-cover-engine-source-0.2.2.zip",
+      "downloads": 14
+    },
+    {
+      "release": "v0.2.2",
+      "file": "extra-cover-Setup-0.2.2.exe",
+      "downloads": 79
+    },
+    {
+      "release": "v0.2.2",
+      "file": "extra-cover-Setup-0.2.2.exe.blockmap",
+      "downloads": 49
+    },
+    {
+      "release": "v0.2.2",
+      "file": "latest.yml",
+      "downloads": 125
+    },
+    {
+      "release": "packstudio",
+      "file": "packstudio-engine-source.zip",
+      "downloads": 0
+    },
+    {
+      "release": "packstudio",
+      "file": "packstudio-win-x64.zip",
+      "downloads": 15
+    },
+    {
+      "release": "packstudio",
+      "file": "packstudio-win-x64.zip.sha256",
+      "downloads": 0
+    },
+    {
+      "release": "packstudio",
+      "file": "update.json",
+      "downloads": 116
+    },
+    {
+      "release": "packstudio-beta",
+      "file": "packstudio-engine-source.zip",
+      "downloads": 3
+    },
+    {
+      "release": "packstudio-beta",
+      "file": "packstudio-win-x64.zip",
+      "downloads": 61
+    },
+    {
+      "release": "packstudio-beta",
+      "file": "packstudio-win-x64.zip.sha256",
+      "downloads": 2
+    },
+    {
+      "release": "packstudio-beta",
+      "file": "update.json",
+      "downloads": 719
+    }
+  ]
+}
