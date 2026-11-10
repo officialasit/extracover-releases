@@ -57,6 +57,19 @@
       "mod": 736325
     },
     {
+      "id": "discord",
+      "tag": "Community",
+      "title": "Try new mods before they're public",
+      "text": "Members get early-access mods, can ask for new ones, and get help if something breaks.",
+      "image": "discord-wide.webp",
+      "buttons": [
+        {
+          "label": "Join the Discord",
+          "action": "discord"
+        }
+      ]
+    },
+    {
       "id": "top",
       "type": "top",
       "count": 3,
