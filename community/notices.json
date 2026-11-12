@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "notices": [
+    {
+      "id": "extracam-pulse-reinstall-2026-11",
+      "level": "warning",
+      "title": "Cricket 26 updated? Reinstall ExtraCam Pulse first",
+      "text": "After every game update, disable ExtraCam Pulse and install it again before you launch Cricket 26. Skipping this makes the game crash. Still crashing? We can help on Discord.",
+      "link": { "label": "Get help on Discord", "action": "discord" }
+    }
+  ]
+}
