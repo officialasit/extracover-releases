@@ -102,6 +102,12 @@
       "reviewedAt": "2026-11-04",
       "reason": "copy",
       "note": "Built from ExtraCam Pulse 1.1.0 by Asit24."
+    },
+    {
+      "modId": 739495,
+      "reviewedAt": "2026-11-12",
+      "reason": "unsafe",
+      "note": "Installs with its own scripts that write to the game files outside Extra Cover."
     }
   ]
 }
