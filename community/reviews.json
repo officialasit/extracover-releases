@@ -108,6 +108,12 @@
       "reviewedAt": "2026-11-12",
       "reason": "unsafe",
       "note": "Installs with its own scripts that write to the game files outside Extra Cover."
+    },
+    {
+      "modId": 739558,
+      "reviewedAt": "2026-11-12",
+      "reason": "unsafe",
+      "note": "Installs with its own scripts that write to the game files outside Extra Cover."
     }
   ]
 }
