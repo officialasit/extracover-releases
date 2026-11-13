@@ -85,6 +85,12 @@
       "modId": 732553,
       "status": "verified",
       "reviewedAt": "2026-11-05"
+    },
+    {
+      "modId": 740023,
+      "status": "verified",
+      "reviewedAt": "2026-11-13",
+      "reviewedVersion": "1.0.0"
     }
   ],
   "reuploads": [

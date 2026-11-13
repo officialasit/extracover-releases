@@ -3,14 +3,14 @@
   "intervalSeconds": 8,
   "slides": [
     {
-      "id": "extracam",
-      "tag": "ExtraCam Pulse",
-      "title": "New camera angles for every ball",
-      "text": "Follows lofted shots from the air and cuts to the batter before the ball. Turn it on in Settings › Camera.",
-      "image": "pulse-wide.jpg",
+      "id": "extravibrations",
+      "tag": "Extra Vibrations",
+      "title": "Feel every ball.",
+      "text": "Needs Extra Cover 0.5.1.",
+      "image": "extravibrations-wide.jpg",
       "buttons": [
         {
-          "label": "Get Pulse",
+          "label": "Get Extra Vibrations",
           "action": "install"
         },
         {
@@ -18,7 +18,7 @@
           "action": "details"
         }
       ],
-      "mod": 729701
+      "mod": 740023
     },
     {
       "id": "extrawipe",
