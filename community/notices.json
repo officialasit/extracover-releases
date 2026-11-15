@@ -2,6 +2,14 @@
   "schemaVersion": 1,
   "notices": [
     {
+      "id": "xbox-stadium-packs-0-5-2",
+      "level": "info",
+      "title": "Xbox app players: update to Extra Cover 0.5.2",
+      "text": "Stadium packs now install on the Xbox app version of Cricket 26. If a stadium pack stopped with \"changed in a Cricket 26 update\", update Extra Cover and install it again.",
+      "versions": { "below": "0.5.2" },
+      "link": { "label": "Release notes", "url": "https://github.com/officialasit/extracover-releases/releases/tag/v0.5.2" }
+    },
+    {
       "id": "extracam-pulse-reinstall-2026-11",
       "level": "warning",
       "title": "Cricket 26 updated? Reinstall ExtraCam Pulse first",
